@@ -1,0 +1,75 @@
+{
+  "url": "https://pnb.wikipedia.org",
+  "html": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\">\n<title>Wikimedia Error</title>\n<style>\n* { margin: 0; padding: 0; }\nbody { background: #fff; font: 15px/1.6 sans-serif; color: #333; }\n.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; display: flex; flex-direction: row; flex-wrap: wrap; }\n.footer { clear: both; margin-top: 14%; border-top: 1px solid #e5e5e5; background: #f9f9f9; padding: 2em 0; font-size: 0.8em; text-align: center; }\nimg { margin: 0 2em 2em 0; }\na img { border: 0; }\nh1 { margin-top: 1em; font-size: 1.2em; }\n.content-text { flex: 1; }\np { margin: 0.7em 0 1em 0; }\na { color: #0645ad; text-decoration: none; }\na:hover { text-decoration: underline; }\ncode { font-family: sans-serif; }\nsummary { font-weight: bold; cursor: pointer; }\ndetails[open] { background: #970302; color: #dfdedd; }\n.text-muted { color: #777; }\n@media (prefers-color-scheme: dark) {\n  a { color: #9e9eff; }\n  body { background: transparent; color: #ddd; }\n  .footer { border-top: 1px solid #444; background: #060606; }\n  #logo { filter: invert(1) hue-rotate(180deg); }\n  .text-muted { color: #888; }\n}\n</style>\n<meta name=\"color-scheme\" content=\"light dark\">\n</head><body><div class=\"content\" role=\"main\">\n<a href=\"https://www.wikimedia.org\"><img id=\"logo\" src=\"https://www.wikimedia.org/static/images/wmf-logo.png\" srcset=\"https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x\" alt=\"Wikimedia\" width=\"135\" height=\"101\">\n</a>\n<div class=\"content-text\">\n<h1>Error</h1>\n\n<p>Too many requests. Please contact noc@wikimedia.org for further information</p>\n</div>\n</div>\n<div class=\"footer\"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class=\"text-muted\"><code>Request served via cp5018 cp5018, Varnish XID 222150989<br>Upstream caches: cp5018 int<br>Error: 429, Too many requests. Please contact noc@wikimedia.org for further information at Sun, 26 Oct 2025 05:23:42 GMT<br></code></p><details><summary><code>Sensitive client information</code></summary><code>IP address: 2401:4900:1c3e:262:7923:18c6:5aba:7d59</code></details><p></p>\n</div>\n\n</body></html>",
+  "fit_html": "<html lang=\"en\"><body><div class=\"content\">\n<a><img id=\"logo\"></a>\n<div class=\"content-text\">\n<h1>Error</h1>\n\n<p>Too many requests. Please contact noc@wikimedia.org for further information</p>\n</div>\n</div>\n<div class=\"footer\"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class=\"text-muted\"><code>Request served via cp5018 cp5018, Varnish XID 222150989<br>Upstream caches: cp5018 int<br>Error: 429, Too many requests. Please contact noc@wikimedia.org for further information at Sun, 26 Oct 2025 05:23:42 GMT<br></code></p><details><summary><code>Sensitive client information</code></summary><code>IP address: 2401:4900:1c3e:262:7923:18c6:5aba:7d59</code></details><p></p>\n</div>\n\n</body></html>",
+  "success": true,
+  "cleaned_html": "<html>\n<head>\n<title>Wikimedia Error</title>\n</head>\n<body>\n<div>\n<a href=\"https://www.wikimedia.org\"><img src=\"https://www.wikimedia.org/static/images/wmf-logo.png\" alt=\"Wikimedia\" width=\"135\" height=\"101\">\n</a>\n<div>\n<h1>Error</h1>\n\n<p>Too many requests. Please contact noc@wikimedia.org for further information</p>\n</div>\n</div>\n<div>\n<p>If you report this error to the Wikimedia System Administrators, please include the details below.</p>\n<p><code>Request served via cp5018 cp5018, Varnish XID 222150989<br>Upstream caches: cp5018 int<br>Error: 429, Too many requests. Please contact noc@wikimedia.org for further information at Sun, 26 Oct 2025 05:23:42 GMT<br></code></p>\n<details><summary><code>Sensitive client information</code></summary><code>IP address: 2401:4900:1c3e:262:7923:18c6:5aba:7d59</code></details>\n</div>\n\n</body>\n</html>",
+  "media": {
+    "images": [],
+    "videos": [],
+    "audios": []
+  },
+  "links": {
+    "internal": [],
+    "external": [
+      {
+        "href": "https://www.wikimedia.org",
+        "text": "",
+        "title": "",
+        "base_domain": "wikimedia.org",
+        "head_data": null,
+        "head_extraction_status": null,
+        "head_extraction_error": null,
+        "intrinsic_score": 0.0,
+        "contextual_score": null,
+        "total_score": null
+      }
+    ]
+  },
+  "downloaded_files": null,
+  "js_execution_result": null,
+  "screenshot": null,
+  "pdf": null,
+  "mhtml": null,
+  "extracted_content": null,
+  "metadata": {
+    "title": "Wikimedia Error",
+    "description": null,
+    "keywords": null,
+    "author": null,
+    "depth": 1,
+    "parent_url": "https://www.wikipedia.org"
+  },
+  "error_message": "",
+  "session_id": null,
+  "response_headers": {
+    "content-length": "2086",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 26 Oct 2025 05:23:42 GMT",
+    "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+    "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+    "retry-after": "1000",
+    "server": "Varnish",
+    "server-timing": "cache;desc=\"int-front\", host;desc=\"cp5018\"",
+    "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+    "x-analytics": "",
+    "x-cache": "cp5018 int",
+    "x-cache-status": "int-front",
+    "x-client-ip": "2401:4900:1c3e:262:7923:18c6:5aba:7d59",
+    "x-request-id": "d4e5b381-e3a2-4684-ad58-daeb577316ac"
+  },
+  "status_code": 429,
+  "ssl_certificate": null,
+  "dispatch_result": null,
+  "redirected_url": "https://pnb.wikipedia.org/",
+  "network_requests": null,
+  "console_messages": null,
+  "tables": [],
+  "markdown": {
+    "raw_markdown": "[![Wikimedia](https://www.wikimedia.org/static/images/wmf-logo.png) ](https://www.wikimedia.org)\n# Error\nToo many requests. Please contact noc@wikimedia.org for further information\nIf you report this error to the Wikimedia System Administrators, please include the details below.\n`Request served via cp5018 cp5018, Varnish XID 222150989  \nUpstream caches: cp5018 int  \nError: 429, Too many requests. Please contact noc@wikimedia.org for further information at Sun, 26 Oct 2025 05:23:42 GMT  \n`\n`Sensitive client information``IP address: 2401:4900:1c3e:262:7923:18c6:5aba:7d59`\n",
+    "markdown_with_citations": "![Wikimedia⟨1⟩ ](https://www.wikimedia.org)\n# Error\nToo many requests. Please contact noc@wikimedia.org for further information\nIf you report this error to the Wikimedia System Administrators, please include the details below.\n`Request served via cp5018 cp5018, Varnish XID 222150989  \nUpstream caches: cp5018 int  \nError: 429, Too many requests. Please contact noc@wikimedia.org for further information at Sun, 26 Oct 2025 05:23:42 GMT  \n`\n`Sensitive client information``IP address: 2401:4900:1c3e:262:7923:18c6:5aba:7d59`\n",
+    "references_markdown": "\n\n## References\n\n⟨1⟩ https://www.wikimedia.org/static/images/wmf-logo.png: ![Wikimedia\n",
+    "fit_markdown": "",
+    "fit_html": ""
+  }
+}
